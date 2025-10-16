@@ -73,6 +73,7 @@ public class GastosActivity extends AppCompatActivity {
         String nombre = nombreGasto.getText().toString().trim();
         String montoStr = montoGasto.getText().toString().trim();
 
+
         if (nombre.isEmpty() || montoStr.isEmpty()) {
             Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show();
             return;

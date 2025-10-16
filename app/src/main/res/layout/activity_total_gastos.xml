@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
+    android:background="@drawable/fondo"
     android:gravity="center">
 
     <TextView
@@ -11,6 +12,7 @@
         android:text="Total de gastos: $0"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:layout_width="match_parent"

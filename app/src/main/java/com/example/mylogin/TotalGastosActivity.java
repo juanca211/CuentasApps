@@ -33,7 +33,6 @@ public class TotalGastosActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
 
-        // Al abrir la pantalla, calculamos el total
         calcularTotal();
 
         btnActualizar.setOnClickListener(new View.OnClickListener() {

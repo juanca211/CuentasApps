@@ -1,5 +1,6 @@
 package com.example.mylogin;
 
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,8 @@ public class AdaptadorGastos extends RecyclerView.Adapter<AdaptadorGastos.ViewHo
         Gasto gasto = listaGastos.get(position);
         holder.texto1.setText(gasto.getNombre());
         holder.texto2.setText("$" + gasto.getMonto() + " | " + gasto.getFecha());
+        holder.texto1.setTextColor(Color.WHITE);
+        holder.texto2.setTextColor(Color.WHITE);
     }
 
     @Override

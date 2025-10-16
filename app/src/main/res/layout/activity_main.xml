@@ -6,12 +6,14 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
         android:text="Login"
         android:textSize="28sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:layout_marginBottom="32dp"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -20,6 +22,8 @@
     <EditText
         android:id="@+id/emailField"
         android:hint="Correo electrónico"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,6 +32,8 @@
     <EditText
         android:id="@+id/passwordField"
         android:hint="Contraseña"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
